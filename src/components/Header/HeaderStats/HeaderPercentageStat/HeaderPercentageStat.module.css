@@ -1,0 +1,28 @@
+.container{
+    padding: 3rem;
+    max-width: 300px;
+    box-shadow: 0 2.3rem 3.6rem 0 rgba(30, 30, 30, 0.09);
+    border-radius: 2.8rem;
+    background-color: #fff;
+    position: absolute;
+    top: 130px;
+    left: -150px;
+    z-index: 100;
+}
+
+.container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.percentage{
+    color: #1c1c1c;
+    font-size: 6.4rem;
+}
+
+.description{
+    font-size: 1.7rem;
+    color:#828282;
+}
