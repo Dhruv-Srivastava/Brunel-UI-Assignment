@@ -1,0 +1,17 @@
+.wrapper{
+    text-align: center;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.paragraph{
+    color: #2da950;
+    font-size: 3.6rem;
+    font-family: "Covered By Your Grace", cursive;
+}
+
+.main_heading{
+    font-size: 5.6rem;
+    font-weight: 600;
+    line-height: 120%;
+}
