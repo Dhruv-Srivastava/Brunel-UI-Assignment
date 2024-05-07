@@ -1,0 +1,21 @@
+.title_container{
+    min-width: 600px;
+}
+
+.title_container > p{
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 3.2rem;
+    letter-spacing: -2%;
+    line-height: 110%;
+    color: #9e9d9d;
+    padding-left: 9.4rem;
+    margin-top: 8rem;
+}
+
+.title_container > h2{
+    font-size: 5.5rem;
+    letter-spacing: -1%;
+    font-weight: 600;
+    padding-left: 9.4rem;
+    margin-bottom: 8.3rem;
+}
