@@ -1,0 +1,36 @@
+.carousel_container{
+
+}
+
+.carousel_container h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-bottom: 5.5rem;
+    min-width: 400px;
+    transition: transform ease-in-out 300ms;
+}
+
+.carousel_container ul{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+
+ul li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e4e3e3;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #cad0cb;
+}
+
+
+
+
+
