@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
 
 /* CSS-Reset and some basivc styling */
 *{
@@ -13,10 +14,21 @@ html{
     font-size: 62.5%;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     height: 100vh;
     margin: 2.4rem;
     font-family: "Manrope", sans-serif;
+}
+
+button:disabled, button:disabled:hover{
+    cursor: not-allowed;
+    background-color: #c9c9c9;
+    color: #fff;
+    transform: scale(1);
 }
 
 #root{
