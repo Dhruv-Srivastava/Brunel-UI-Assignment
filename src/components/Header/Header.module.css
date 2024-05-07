@@ -1,0 +1,15 @@
+header{
+    padding-block: 7.9rem;
+    padding-left: 6.2rem;
+    padding-right: 14.5rem;
+}
+
+.container{
+    display: flex;
+    gap: 50rem;
+    margin-top: 11.2rem;
+}
+
+.slider_cta_container > button{
+    margin-top: 13rem;
+}
