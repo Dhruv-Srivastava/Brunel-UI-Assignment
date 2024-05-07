@@ -1,0 +1,43 @@
+.form_container{
+    max-width: 500px;
+    margin-inline: auto;
+    margin-top: 6.2rem;
+}
+
+.form_container form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.form_container form input{
+    background-color: #efefef;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-block: 2.4rem;
+    border-radius: 6.4rem;
+    border: none;
+    padding-inline: 3.6rem;
+    font-family: inherit;
+}
+
+
+
+input + label{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    gap: 5px;
+    color: #ff0808;
+    vertical-align: baseline;
+    font-weight: 500;
+}
+
+input:active{
+    color: black;
+}
+
+.form_container button{
+    margin-top: 4.7rem;
+}
