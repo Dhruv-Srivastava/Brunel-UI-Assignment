@@ -1,0 +1,29 @@
+.according_container{
+    padding-bottom: 2.4rem;
+    margin-top: 3.6rem;
+}
+
+.ques_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ques_container h5{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 140%;
+    max-width: 550px;
+}
+
+.according_container p{
+    color: #617275;
+    font-size: 1.6rem;
+    line-height: 160%;
+} 
+
+
+.toggle{
+    font-weight: bold;
+    cursor: pointer;
+}
