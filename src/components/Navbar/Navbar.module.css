@@ -2,12 +2,20 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    border: 1px solid #EAEAEA;
+    
     border-radius: 6.528rem;
     padding: 1.8rem 3rem;
+    padding-right: 1.8rem;
 }
+
+
 
 nav button:first-child{
     margin-right: 1.567rem;
+}
+
+.btn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
