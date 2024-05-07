@@ -1,0 +1,45 @@
+.success_info_container {
+  margin-inline: auto;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15.4rem;
+}
+
+.success_info_container h3 {
+  color: #2da950;
+  font-size: 3.6rem;
+  font-family: "Covered By Your Grace", cursive;
+  margin-top: 4.2rem;
+}
+
+.success_info_container h1 {
+  font-size: 5.6rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -2%;
+  margin-top: 1.6rem;
+}
+
+.success_info_container p {
+  margin-top: 2rem;
+  color: #727272;
+  font-size: 2.7rem;
+  font-weight: 500;
+  letter-spacing: 130%;
+  min-width: 900px;
+}
+
+.redirection {
+  text-align: center;
+  font-size: 2rem;
+  color: #727272;
+}
+
+.redirection span {
+  font-weight: 900;
+  color: #1c1c1c;
+}
