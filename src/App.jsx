@@ -17,17 +17,15 @@ export default function App() {
         variants={{
           initialState: {
             opacity: 0,
-            // clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
             clipPath: "polygon(0 0, 0 100%, 0% 100%, 0% 0%)",
             height: 0,
           },
           animateState: {
             opacity: 1,
-            // clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
             clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
             height: "100%",
           },
-          exitState: { clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)" },
+          exitState: { clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)"},
         }}
       >
         <Routes location={location} key={location.pathname}>
