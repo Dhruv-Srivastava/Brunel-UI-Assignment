@@ -5,10 +5,13 @@
 .carousel_container h2{
     font-size: 4rem;
     font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     color: #1c1c1c;
-    margin-bottom: 5.5rem;
-    min-width: 400px;
+    min-width: 500px;
+    height: 230px;
     transition: transform ease-in-out 300ms;
+    transition: opacity 300ms ease-in-out;
 }
 
 .carousel_container ul{
@@ -24,9 +27,10 @@ ul li{
     border-radius: 50%;
     background-color: #e4e3e3;
     cursor: pointer;
+    transition: background-color 300ms ease-in-out;
 }
 
-li:hover{
+ul li:hover{
     background-color: #cad0cb;
 }
 

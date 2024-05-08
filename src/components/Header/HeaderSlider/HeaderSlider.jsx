@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { carouselData } from "../../../data/carousel.js";
+import { motion, AnimatePresence } from "framer-motion";
 
 import styles from "./HeaderSlider.module.css";
 
@@ -8,7 +9,18 @@ export default function HeaderSlider() {
 
   return (
     <div className={styles.carousel_container}>
-      <h2>{carouselData[active].text}</h2>
+      <h2 className={styles.carousel_text}>
+        <AnimatePresence initial={false} mode="wait">
+          <motion.span
+            key={active}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5}}
+          >
+            {carouselData[active].text}
+          </motion.span>
+        </AnimatePresence>
+      </h2>
       <ul>
         {carouselData.map((_, i) => {
           return (
@@ -16,7 +28,7 @@ export default function HeaderSlider() {
               key={_.id}
               id={`${i === active ? "active" : ""}`}
               onClick={() => setActive(i)}
-              style={{backgroundColor:i===active?"#2da950":"#e4e3e3"}}
+              style={{ backgroundColor: i === active ? "#2da950" : "" }}
             ></li>
           );
         })}
