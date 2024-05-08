@@ -3,10 +3,11 @@
     padding: 3.4rem 3.4rem 4.0rem 3.6rem;
     color: #fff;
     border-radius: 2.9rem;
-    min-width: 400px;
+    min-width: 350px;
+    max-width: 400px;
     position: absolute;
-    top: 450px;
-    left: 350px;
+    top: 350px;
+    left: 340px;
     z-index: 100;
 }
 
