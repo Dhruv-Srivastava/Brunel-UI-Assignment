@@ -5,10 +5,10 @@ export const carouselData = [
     },
     {
         id:crypto.randomUUID(),
-        text:"Transforming workforce deployment and project efficiency to drive cost savings and growth."
+        text:"Optimizing deployment for efficiency, savings, growth."
     },
     {
         id:crypto.randomUUID(),
-        text:"Maximizing productivity and minimizing costs through strategic workforce optimization."
+        text:"Productivity up, costs down via workforce optimization"
     },
 ]
