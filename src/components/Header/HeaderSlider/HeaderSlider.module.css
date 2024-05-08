@@ -3,13 +3,12 @@
 }
 
 .carousel_container h2{
-    font-size: 4rem;
+    font-size: 3.2rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 5.5rem;
     margin-top: 2rem;
     color: #1c1c1c;
-    min-width: 500px;
-    height: 230px;
+    max-width: 380px;
     transition: transform ease-in-out 300ms;
     transition: opacity 300ms ease-in-out;
 }

@@ -3,17 +3,18 @@ import HeaderDaysStat from "./HeaderDaysStat/HeaderDaysStat.jsx";
 import HeaderMoneyStat from "./HeaderMoneyStat/HeaderMoneyStat.jsx";
 import HeaderPercentageStat from "./HeaderPercentageStat/HeaderPercentageStat.jsx";
 
-import styles from "./HeaderStats.module.css"
+import styles from "./HeaderStats.module.css";
 
 export default function HeaderStats() {
   return (
     <div className={styles.container}>
-      <img src={HeroImage} alt="Image of girl wearing green hoodiee" className={styles.stats_img}/>
+      <img
+        src={HeroImage}
+        alt="Image of girl wearing green hoodiee"
+        className={styles.stats_img}
+      />
 
-      <HeaderDaysStat 
-        numDays={10} 
-        text={"Staff Deployment"} /
-      >
+      <HeaderDaysStat numDays={10} text={"Staff Deployment"} />
 
       <HeaderPercentageStat
         percentage={40}
@@ -21,7 +22,7 @@ export default function HeaderStats() {
           "Achieved reduction in project execution time by optimising team availability"
         }
       />
-      
+
       <HeaderMoneyStat
         amount={0.5}
         suffix={"MILLION"}
