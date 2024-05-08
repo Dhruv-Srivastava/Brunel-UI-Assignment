@@ -32,6 +32,7 @@ input + label{
     color: #ff0808;
     vertical-align: baseline;
     font-weight: 500;
+    font-size: 1.6rem;
 }
 
 input:active{
