@@ -15,13 +15,11 @@ export default function Header() {
         <div className={styles.slider_cta_container}>
           <HeaderSlider />
           <Button variant="primary">
-            Explore more
+            Explore&nbsp;More
             <img src={ArrowLeft} alt="Arrow to Right" />
           </Button>
         </div>
       </div>
-      {/* <HeaderStats />
-            <HeaderSlider /> */}
     </header>
   );
 }
