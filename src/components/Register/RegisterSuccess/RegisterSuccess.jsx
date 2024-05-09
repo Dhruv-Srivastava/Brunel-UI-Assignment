@@ -31,17 +31,15 @@ export default function RegisterSuccess() {
         initialState: {
           opacity: 0,
           clipPath: "polygon(0 0, 0 100%, 0% 100%, 0% 0%)",
-          height: 0,
         },
         animateState: {
           opacity: 1,
           clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
-          height: "100%",
         },
         exitState: { clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)" },
       }}
     >
-      <header>
+      <header className={styles.header}>
         <img src={SuccessLogo} alt="Green Checkmark Logo" />
         <h3>Success Submitted</h3>
         <h1>Congratulations</h1>
