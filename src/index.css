@@ -37,3 +37,10 @@ button:disabled, button:disabled:hover{
     width: 100%;
     padding: 2.4rem;
 }
+
+h1#not-found{
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    font-size: 4rem;
+}

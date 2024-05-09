@@ -2,6 +2,7 @@ import { Route, Routes, useLocation } from "react-router";
 import { AnimatePresence, motion } from "framer-motion";
 import Home from "./pages/Home";
 import Registration from "./pages/Registration";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   const location = useLocation();
@@ -22,7 +23,7 @@ export default function App() {
           },
           animateState: {
             opacity: 1,
-            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+            clipPath: "polygon(0 0, 200% 0, 200% 100%, 0% 100%)",
             height: "100%",
           },
           exitState: { clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)"},
@@ -31,6 +32,7 @@ export default function App() {
         <Routes location={location} key={location.pathname}>
           <Route index element={<Home />} />
           <Route path="/register" element={<Registration />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </motion.div>
     </AnimatePresence>
