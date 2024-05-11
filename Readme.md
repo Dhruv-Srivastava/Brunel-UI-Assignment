@@ -1,7 +1,5 @@
 ## React Internship Project Assignment
 
-**Note: Please keep the zoom level of the browser at 70-80% for the best viewing experience.**
-
 ### How to install
 
 1. Download the zip file of code or open the terminal and run `git clone https://github.com/Dhruv-Srivastava/Brunel-UI-Assignment`
